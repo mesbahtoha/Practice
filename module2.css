@@ -1,0 +1,25 @@
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second{
+    /* display:none; (Hide) */
+    /* visibility: hidden; (Hide but space show) */
+}
+.blog{
+    margin: 20px;
+    border: 10px solid turquoise;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+.Toha{
+    border:2px solid purple ;
+    /* display: block; */
+    /* display: inline-block; */
+}
+.dolor{
+    border: 2px dotted peru;
+    /* display: inline;
+    display: block;
+    display: inline-block; */
+}

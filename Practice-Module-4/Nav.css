@@ -1,0 +1,25 @@
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li :hover{
+    background-color: lightgray;
+}
+/* Nested menu styles */
+nav li .Mesbah{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    padding-left: 5px;
+}
+nav li:hover > .Mesbah{
+    display: block;
+}

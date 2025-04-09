@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-Module</title>
+    <link rel="shortcut icon" href="./photo_2025-01-04_23-23-23.jpg" type="image/x-icon">
+    <style>
+        /* 1.Color.css */
+        p{
+            background-color: rgba(172, 255, 47, 0.685);
+            
+        }
+        .T{
+            width: 50%;
+        }
+        li{
+            color: blueviolet;
+        }
+        #short{
+            color: brown;
+            text-align: center;
+        }
+        #embeded{
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        .player{
+            text-align: right;
+        }
+        /* 2.selectors.css */
+        #fifth,li{
+            font-size: 26px;
+        }
+        .holud,.yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        
+       input{
+        font-size: 30px;
+        border-color: yellowgreen;
+       }
+       .Toha{
+        color: blue;
+       }
+       .blog{
+        background-color: pink;
+        color: blueviolet;
+       }
+       
+    </style>
+</head>
+    <!-- 1.Color.html -->
+     <div class="T">
+     <h2 style="color: red;">Learning Basic CSS</h2>
+     <p>CSS meaning : Cascading Style Sheet</p>
+     <p>ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque ratione, rerum quidem quod molestiae iusto, consequuntur optio sequi possimus provident temporibus. Dicta quibusdam officia et accusantium ratione, aut tempora.</p>
+     <p id="short">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque ratione, rerum quidem quod molestiae iusto, consequuntur optio sequi possimus provident temporibus. Dicta quibusdam officia et accusantium ratione, aut tempora.</p>
+     <p class="player">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque ratione, rerum quidem quod molestiae iusto, consequuntur optio sequi possimus provident temporibus. Dicta quibusdam officia et accusantium ratione, aut tempora.</p>
+     <p class="player">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque ratione, rerum quidem quod molestiae iusto, consequuntur optio sequi possimus provident temporibus. Dicta quibusdam officia et accusantium ratione, aut tempora.</p>
+     <p class="player">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque ratione, rerum quidem quod molestiae iusto, consequuntur optio sequi possimus provident temporibus. Dicta quibusdam officia et accusantium ratione, aut tempora.</p>
+</div>
+     <ul>
+        <li>Inline</li>
+        <li id="embeded">Internal or Embeded</li>
+        <li>External</li>
+     </ul>
+     <br>
+     <!-- 2.Selectors.html -->
+      <div>
+      <h2>Explore Mixed Selectors</h2>
+      <p>My first <span class="Toha">line css</span></p>
+      <p class="yellow">My second line css</p>
+      <p class="yellow bold">My third line css</p>
+      <p>My fourth line css</p>
+      <p id="fifth">My fiveth line css</p>
+      <p class="bold">My sixth line css</p>
+      <p class="holud">My seventh line css</p>
+    </div>
+      <ol>
+        <li>Element Selector</li>
+        <li>ID Selector</li>
+        <li class="bold holud">Class Selector</li>
+        <li>Universal Selector</li>
+      </ol>
+      <form action="">
+        <input type="password">
+        <br>
+        <br>
+        <input type="text">
+      </form>
+      <br>
+      <div class="blog">
+        <h2>My blog</h2>
+        <p class="blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic nisi, corporis est, minus iusto exercitationem labore alias tempora excepturi error modi rerum, aspernatur at ipsum totam deserunt sint placeat.</p>
+      </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        *{
+            margin: 10;
+        }
+        .blog{
+            background-color: aquamarine;
+            border: 10px solid greenyellow;
+            /* border-bottom: none; */
+            border-radius: 20px ;
+            /* border-right: 20px solid salmon;  */
+            /* margin-bottom: 10px; */
+            /* margin: 10px 50px ; TB, LR */
+            /* margin: 10px 50px 100px; -->(T, RL, B) */
+            margin: 10px 20px 30px 40px; -->(T, R, B, L)
+            text-align: justify;
+            padding: 20px;
+            /* padding: 10px 40px; TB,LR */
+            /* padding: 10px 40px 80px; T, LR, B */
+            /* padding: 10px,30px,70px,120px; T,R,B,L, */
+            /* width: 75%;      */
+        }
+    </style>
+    <link rel="stylesheet" href="./module2.css">
+</head>
+<body>
+    <div class="blog">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <div class="blog">
+        <h3>My Second Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <div class="blog">
+        <h3>My third Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <div class="blog">
+        <h3 >My fourth Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <h3>CSS Box Model dependent on :</h3>
+    <ol>
+        <li>Content</li>
+        <li>Padding</li>
+        <li>Border</li>
+        <li>Margin</li>
+        <li>Width & Height</li>
+    </ol>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS</title>
+    <link rel="stylesheet" href="styles/blog.css"> 
+    <link rel="shortcut icon" href="coding_background.webp" type="image/x-icon">
+    <style>
+        *{
+             margin: 10px; 
+
+        }
+        .blog{
+            margin: 5px;
+        }
+        .header{
+            height: 400px;
+            font-size: 40px;
+            /* background-image: url('download.jpeg'); */
+            background-image: url('coding_background.webp');
+            /* background-repeat: no-repeat; */
+            /* background-repeat: repeat-y; */
+            /* background-repeat: repeat-x; */
+           /* background-size: cover; */
+           background-size: contain;
+           background-position: center;
+           /* background-size: 500px; */
+           color: rgb(220, 245, 239);
+           text-align: center;
+           /* background-image: url('../'); */
+        }
+    </style> 
+</head>
+<body>
+    <header class="header">
+        Welcome to my External Website
+    </header>
+    <div class="blog">
+        <h3>My first Blog</h3>
+        <p>Lorem ipsum dolor sit, amet <span class="Toha">consectetur elit</span>. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <br>
+    <div class="second blog">
+        <h3>My Second Blog</h3>
+        <p>Lorem<span class="dolor">ipsum dolor sit</span>, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <br>
+    <div class="blog">
+        <h3>My third Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <br>
+    <div class="blog">
+        <h3 >My fourth Blog</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quia aliquam cumque, eligendi soluta officia delectus doloribus esse! Eveniet ipsum officiis delectus laborum earum reiciendis voluptatum saepe assumenda sed nihil?</p>
+    </div>
+    <br>
+    <h3>CSS Box Model dependent on :</h3>
+    <ol>
+        <li>Content</li>
+        <li>Padding</li>
+        <li style="color: brown; text-decoration: underline;">Border</li>
+        <li>Margin</li>
+        <li>Width & Height</li>
+    </ol>
+</body>
+</html>
